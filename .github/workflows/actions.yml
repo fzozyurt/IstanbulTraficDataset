@@ -2,7 +2,7 @@ name: Veri Cekme Guncelleme
 
 on:
   schedule:
-    - cron: "* 0 * * *" # Hergün saat 00:00 da
+    - cron: "10 00 * * *" # Hergün saat 00:00 da
 
 jobs:
   build:
