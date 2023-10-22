@@ -2,8 +2,7 @@ name: Kaggle Dataset Update
 
 on:
   push:
-    paths:
-      - "**.csv"
+    paths: "Data/**"
   workflow_dispatch:
 jobs:
   build:
