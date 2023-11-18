@@ -1,7 +1,6 @@
 name: Kaggle Dataset Update
 
 on:
-  push:
   workflow_dispatch:
 jobs:
   build:
