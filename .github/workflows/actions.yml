@@ -39,6 +39,7 @@ jobs:
           branch: main
   
   KaagleUpload:
+    needs: DataControlAndDawnload
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
