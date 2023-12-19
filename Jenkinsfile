@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Install Python') {
       steps {
-        sh 'apt-get install python3.9'
+        sh '''apt-get update
+apt-get install python3.9'''
       }
     }
 
